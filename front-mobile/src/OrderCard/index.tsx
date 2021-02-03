@@ -14,8 +14,8 @@ if (Platform.OS === "android") {
     }
 }
 
-dayjs.locale('pt-br');
 dayjs.extend(relativeTime);
+dayjs.locale('pt-br');
 
 type Props = {
     order: Order;
